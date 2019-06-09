@@ -8,6 +8,28 @@ button {
     margin-left: 5px;
 }
 
+h3 {
+    font-size: 1rem !important;
+}
+
 .table-actions {
     width: 150px;
+}
+
+@media (min-width: 768px) {
+    h3 {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    h3 {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    h3 {
+        font-size: 4.375rem !important;
+    }
 }
